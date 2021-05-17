@@ -1,0 +1,27 @@
+.grid{
+
+font-family:Arial, Helvetica, sans-serif;
+color: darkviolet;
+background-color:darkturquoise;
+font-size: 50px;
+
+}
+
+.item{
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkviolet;
+    background-color:deeppink;
+    font-size: 50px;
+      
+}
+ 
+.item2{
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkviolet;
+    background-color:gold;
+    font-size: 50px;
+      
+}
+
+
+
