@@ -1,32 +1,35 @@
-var oxygenDhhs1 , oxygenDhhs1Img;
-var oxygenDhhs2 , oxygenDhhs2Img;
-var oxygenDhhs3 , oxygenDhhs3Img;
+var oxygenChhs1 , oxygenChhs1Img;
+var oxygenChhs2 , oxygenChhs2Img;
+var oxygenChhs3 , oxygenChhs3Img;
 
 function preload(){
   //loading images for oxygen
   
-  oxygenDhhs1Img = loadImage("oxygenDhhs1.png");
-  oxygenDhhs2Img = loadImage("oxygenDhhs2.png");
-  oxygenDhhs3Img = loadImage("oxygenDhhs3.png");
+  oxygenChhs1Img = loadImage("oxygenChhs1.png");
+  oxygenChhs2Img = loadImage("oxygenChhs2.png");
+  oxygenChhs3Img = loadImage("oxygenChhs3.png");
 
 }
 function setup(){
 createCanvas(2000,2000)
   // creating sprite image for oxygen available in chennai hospital no.1
-oxygenDhhs1 = createSprite(600, 400,150,150);
-oxygenDhhs1.addImage(oxygenDhhs1Img);
+oxygenChhs1 = createSprite(600, 400,150,150);
+oxygenChhs1.addImage(oxygenChhs1Img);
 
 // creating sprite image for oxygen available in chennai hospital no.2
-oxygenDhhs2 = createSprite(600, 1100,150,150);
-oxygenDhhs2.addImage(oxygenDhhs2Img);
+oxygenChhs2 = createSprite(600, 1500,150,150);
+oxygenChhs2.addImage(oxygenChhs2Img);
 
 
 // creating sprite image for oxygen available in chennai hospital no.3
-oxygenDhhs3 = createSprite(600, 1800,150,150);
-oxygenDhhs3.addImage(oxygenDhhs3Img);
+oxygenChhs3 = createSprite(600, 2100,150,150);
+oxygenChhs3.addImage(oxygenChhs3Img);
 
 }
 
 function draw(){
+ background("red")
   drawSprites();
+ 
+ 
 }
